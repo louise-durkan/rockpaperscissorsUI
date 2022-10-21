@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+}
+
+h1{
+  color: rgb(150,200,28);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+div{
+  margin: 20px 20px;
+  text-align: center;
+}
+
+
+button{
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(150,200,28);
+  border:none;
+  border-radius: 10px;
+  color: rgb(200,250,210);
+  font-style:italic;
+  font-size: 15px;
+  width: 150px;
+}
