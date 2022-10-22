@@ -18,7 +18,6 @@ function computerPlay() {
 function playRound(playerSelection, computerSelection) {
   myGo.innerHTML = "Your move: " + playerSelection;
   computerGo.innerHTML = "Computer move: " + computerSelection;
-
   if (playerSelection === "rock" && computerSelection === "rock" || playerSelection === "paper" && computerSelection === "paper"
   || playerSelection === "scissors" && computerSelection === "scissors") {
     results.innerHTML = "It's a draw, go again!";
